@@ -1,0 +1,4 @@
+$ cd ~/environment/hello_app/
+$ rails server
+=> Booting Puma
+=> Ctrl-C to shutdown server

@@ -1,0 +1,2 @@
+$ rails test
+3 runs, 6 assertions, 3 failures, 0 errors, 0 skips

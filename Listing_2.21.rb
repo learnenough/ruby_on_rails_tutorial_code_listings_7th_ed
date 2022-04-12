@@ -1,0 +1,5 @@
+class Micropost < ApplicationRecord
+  .
+  .
+  .
+end

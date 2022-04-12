@@ -1,0 +1,5 @@
+$ rails db:migrate
+== CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0027s
+== CreateUsers: migrated (0.0036s) =============================

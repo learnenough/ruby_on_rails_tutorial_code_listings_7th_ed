@@ -1,0 +1,1 @@
+$ rails test test/models/micropost_test.rb

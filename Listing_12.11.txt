@@ -1,0 +1,63 @@
+UserMailer#password_reset: processed outbound mail in 6.0ms
+Delivered mail 5d609328d5d29_28872b106582ddf4886d8@ip-172-31-25-202.mail (2.8ms)
+Date: Fri, 11 Mar 2022 01:30:16 +0000
+From: user@realdomain.com
+To: michael@michaelhartl.com
+Message-ID: <5d609328d5d29_28872b106582ddf4886d8@ip-172-31-25-202.mail>
+Subject: Password reset
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5d609328d5404_28872b106582ddf488531";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5d609328d5404_28872b106582ddf488531
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+To reset your password click the link below:
+
+https://0ebe1dc6d40e4a4bb06e0ca7fe138127.vfs.cloud9.us-east-2.
+amazonaws.com/password_resets/cT3mB4pwu7o-hrg6qEDfKg/
+edit?email=michael%40michaelhartl.com
+
+This link will expire in two hours.
+
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+
+----==_mimepart_5d609328d5404_28872b106582ddf488531
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Password reset</h1>
+
+<p>To reset your password click the link below:</p>
+
+<a href="https://0ebe1dc6d40e4a4bb06e0ca7fe138127.vfs.cloud9.us-east-2.
+amazonaws.com/password_resets/cT3mB4pwu7o-hrg6qEDfKg/
+edit?email=michael%40michaelhartl.com">Reset password</a>
+
+<p>This link will expire in two hours.</p>
+
+<p>
+If you did not request your password to be reset, please ignore this email and
+your password will stay as it is.
+</p>
+  </body>
+</html>
+
+----==_mimepart_5d609328d5404_28872b106582ddf488531--

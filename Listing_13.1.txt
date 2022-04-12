@@ -1,0 +1,1 @@
+$ rails generate model Micropost content:text user:references

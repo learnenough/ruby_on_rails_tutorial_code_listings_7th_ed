@@ -1,0 +1,5 @@
+$ rails test
+$ git add -A
+$ git commit -m "Add password reset"
+$ git checkout main
+$ git merge password-reset

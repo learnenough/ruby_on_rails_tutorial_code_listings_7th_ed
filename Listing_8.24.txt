@@ -1,0 +1,2 @@
+$ mkdir app/javascript/custom
+$ touch app/javascript/custom/menu.js

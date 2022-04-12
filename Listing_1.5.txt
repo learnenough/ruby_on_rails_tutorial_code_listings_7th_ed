@@ -1,0 +1,4 @@
+# These steps are not needed on the cloud IDE.
+$ cd                    # Change to the home directory.
+$ mkdir environment     # Make an environment directory.
+$ cd environment/       # Change into the environment directory.

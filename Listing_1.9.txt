@@ -1,0 +1,6 @@
+$ cd hello_app/
+$ bundle _2.3.11_ install
+Fetching source index for https://rubygems.org/
+.
+.
+.

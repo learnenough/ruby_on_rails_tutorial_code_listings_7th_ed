@@ -1,0 +1,3 @@
+$ bundle _2.3.11_ config set --local without 'production'
+$ bundle _2.3.11_ install
+$ bundle _2.3.11_ lock --add-platform x86_64-linux

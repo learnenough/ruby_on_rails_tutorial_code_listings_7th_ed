@@ -1,0 +1,57 @@
+UserMailer#account_activation: processed outbound mail in 5.1ms
+Delivered mail 5d606e97b7a44_28872b106582df988776a@ip-172-31-25-202.mail (3.2ms)
+Date: Fri, 11 Mar 2022 22:54:15 +0000
+From: user@realdomain.com
+To: michael@michaelhartl.com
+Message-ID: <5d606e97b7a44_28872b106582df988776a@ip-172-31-25-202.mail>
+Subject: Account activation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5d606e97b6f16_28872b106582df98876dd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5d606e97b6f16_28872b106582df98876dd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi Michael Hartl,
+
+Welcome to the Sample App! Click on the link below to activate your account:
+
+https://0ebe1dc6d40e4a4bb06e0ca7fe138127.vfs.cloud9.us-east-2.
+amazonaws.com/account_activations/zdqs6sF7BMiDfXBaC7-6vA/
+edit?email=michael%40michaelhartl.com
+
+----==_mimepart_5d606e97b6f16_28872b106582df98876dd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Sample App</h1>
+
+<p>Hi Michael Hartl,</p>
+
+<p>
+Welcome to the Sample App! Click on the link below to activate your account:
+</p>
+
+<a href="https://0ebe1dc6d40e4a4bb06e0ca7fe138127.vfs.cloud9.us-east-2.
+amazonaws.com/account_activations/zdqs6sF7BMiDfXBaC7-6vA/
+edit?email=michael%40michaelhartl.com">Activate</a>
+  </body>
+</html>
+
+----==_mimepart_5d606e97b6f16_28872b106582df98876dd--

@@ -1,0 +1,6 @@
+$ heroku apps:info
+=== mysterious-atoll-47182
+.
+.
+.
+Web URL:        https://mysterious-atoll-47182.herokuapp.com/

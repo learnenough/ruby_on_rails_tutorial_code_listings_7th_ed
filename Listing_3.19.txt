@@ -1,0 +1,2 @@
+$ rails test
+NameError: undefined local variable or method `static_pages_about_url'

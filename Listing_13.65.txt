@@ -1,0 +1,1 @@
+$ curl -o test/fixtures/kitten.jpg -L https://cdn.learnenough.com/kitten.jpg

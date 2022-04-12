@@ -1,0 +1,1 @@
+$ curl -o app/assets/images/rails.svg -L https://cdn.learnenough.com/rails.svg
