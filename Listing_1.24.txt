@@ -1,3 +1,4 @@
-$ bundle _2.3.11_ config set --local without 'production'
-$ bundle _2.3.11_ install
-$ bundle _2.3.11_ lock --add-platform x86_64-linux
+$ heroku create
+Creating app... done, ⬢ thawing-refuge-35095
+https://thawing-refuge-35095.herokuapp.com/ |
+https://git.heroku.com/thawing-refuge-35095.git

@@ -1,1 +1,1 @@
-$ gem install bundler -v 2.3.11
+$ gem install bundler -v 2.3.14

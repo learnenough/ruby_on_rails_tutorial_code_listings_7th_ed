@@ -1,3 +1,7 @@
-[website (main)]$ git remote add origin https://github.com/<name>/hello_app.git
-[website (main)]$ git branch -M main
-[website (main)]$ git push -u origin main
+# Ruby on Rails Tutorial
+
+## "hello, world!"
+
+This is the first application for the
+[*Ruby on Rails Tutorial*](https://www.railstutorial.org/)
+by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!

@@ -1,25 +1,57 @@
 $ rails console
 >> first_user = User.first
-   (0.5ms)  SELECT sqlite_version(*)
-  User Load (0.2ms)  SELECT "users".* FROM "users" ORDER BY "users"."id" ASC
-  LIMIT ?  [["LIMIT", 1]]
- => #<User id: 1, name: "Michael Hartl", email: "michael@example.org",
- created_at: "2019-08-20 00:39:14", updated_at: "2019-08-20 00:41:24">
+User Load (0.1ms)  SELECT "users".* FROM "users" ORDER BY "users"."id"
+ASC LIMIT ?  [["LIMIT", 1]]
+ =>
+
+>> first_user
+ =>
+#<User:0x00007ffbf1331658
+ id: 1,
+ name: "Michael Hartl",
+ email: "michael@example.org ",
+ created_at: Thu, 10 Mar 2022 00:23:31.441663000 UTC +00:00,
+ updated_at: Thu, 10 Mar 2022 00:25:04.172206000 UTC +00:00>
+
+#<User:0x00007ffbf1331658
+
 >> first_user.microposts
-  Micropost Load (3.2ms)  SELECT "microposts".* FROM "microposts" WHERE
-  "microposts"."user_id" = ? LIMIT ?  [["user_id", 1], ["LIMIT", 11]]
- => #<ActiveRecord::Associations::CollectionProxy [#<Micropost id: 1, content:
- "First micropost!", user_id: 1, created_at: "2019-08-20 02:04:13", updated_at:
- "2019-08-20 02:04:13">, #<Micropost id: 2, content: "Second micropost",
- user_id: 1, created_at: "2019-08-20 02:04:30", updated_at: "2019-08-20
- 02:04:30">]>
+  Micropost Load (0.2ms)  SELECT "microposts".* FROM "microposts"
+  WHERE "microposts"."user_id" = ?  [["user_id", 1]]
+ =>
+[#<Micropost:0x00007ffbf16807a0
+  id: 1,
+  content: "First micropost!",
+  user_id: 1,
+  created_at: Thu, 10 Mar 2022 00:46:02.263125000 UTC +00:00,
+  updated_at: Thu, 10 Mar 2022 00:46:02.263125000 UTC +00:00>,
+ #<Micropost:0x00007ffbf1653a70
+  id: 2,
+  content: "Second micropost",
+  user_id: 1,
+  created_at: Thu, 10 Mar 2022 00:46:14.079131000 UTC +00:00,
+  updated_at: Thu, 10 Mar 2022 00:46:14.079131000 UTC +00:00>]
+
 >> micropost = first_user.microposts.first
-  Micropost Load (0.2ms)  SELECT "microposts".* FROM "microposts" WHERE
-  "microposts"."user_id" = ? ORDER BY "microposts"."id" ASC LIMIT ?
-  [["user_id", 1], ["LIMIT", 1]]
- => #<Micropost id: 1, content: "First micropost!", user_id: 1, created_at:
- "2019-08-20 02:04:13", updated_at: "2019-08-20 02:04:13">
+ =>
+#<Micropost:0x00007ffbf16807a0
+...
+>> micropost
+ =>
+#<Micropost:0x00007ffbf16807a0
+ id: 1,
+ content: "First micropost!",
+ user_id: 1,
+ created_at: Thu, 10 Mar 2022 00:46:02.263125000 UTC +00:00,
+ updated_at: Thu, 10 Mar 2022 00:46:02.263125000 UTC +00:00>
+
 >> micropost.user
- => #<User id: 1, name: "Michael Hartl", email: "michael@example.org",
- created_at: "2019-08-20 00:39:14", updated_at: "2019-08-20 00:41:24"
+ =>
+#<User:0x00007ffbf1331658
+ id: 1,post:0
+ name: "Michael Hartl",
+ email: "michael@example.org ",
+ created_at: Thu, 10 Mar 2022 00:23:31.441663000 UTC +00:00,
+ updated_at: Thu, 10 Mar 2022 00:25:04.172206000 UTC +00:00>
+
 >> exit

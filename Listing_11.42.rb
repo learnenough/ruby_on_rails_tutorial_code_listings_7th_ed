@@ -49,10 +49,10 @@ class UsersIndexAdminTest < UsersIndexAdmin
     # Deactivate the first user on the page.
     # Making an inactive fixture user isn't sufficient because Rails can't
     # guarantee it would appear on the first page.
-    User.paginate(page: 1).first.toggle!(:activated)
+    User.paginate(page: 1).first.toggle!(FILL_IN)
     # Ensure that all the displayed users are activated.
     assigns(:users).each do |user|
-      assert user.activated?
+      assert user.FILL_IN
     end
   end
 end

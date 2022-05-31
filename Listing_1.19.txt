@@ -1,1 +1,1 @@
-$ git config --global alias.co checkout
+$ git config --global credential.helper "cache --timeout=86400"

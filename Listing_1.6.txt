@@ -1,5 +1,5 @@
 $ cd ~/environment
-$ rails _7.0.2.3_ new hello_app --skip-bundle
+$ rails _7.0.3_ new hello_app --skip-bundle
       create
       create  README.md
       create  Rakefile

@@ -1,1 +1,3 @@
-$ git config --global credential.helper "cache --timeout=86400"
+[website (main)]$ git remote add origin https://github.com/<name>/hello_app.git
+[website (main)]$ git branch -M main
+[website (main)]$ git push -u origin main

@@ -1,1 +1,1 @@
-% $ sudo ln -sf `which nano` /usr/bin
+$ git config --global alias.co checkout

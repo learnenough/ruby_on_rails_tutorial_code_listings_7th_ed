@@ -1,1 +1,2 @@
-$ curl -o test/fixtures/kitten.jpg -L https://cdn.learnenough.com/kitten.jpg
+$ curl -o test/fixtures/files/kitten.jpg \
+>      -L https://cdn.learnenough.com/kitten.jpg
